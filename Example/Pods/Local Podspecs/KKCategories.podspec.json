@@ -1,22 +1,22 @@
 {
   "name": "KKCategories",
-  "version": "0.1.0",
-  "summary": "A short description of KKCategories.",
+  "version": "1.0",
+  "summary": "KKCategories.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/v_ljqliang/KKCategories",
+  "homepage": "https://github.com/LeungKinKeung/KKCategories",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "v_ljqliang": "v_ljqliang@tencent.com"
+    "LeungKinKeung": "994700304@qq.com"
   },
   "source": {
-    "git": "https://github.com/v_ljqliang/KKCategories.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/LeungKinKeung/KKCategories.git",
+    "tag": "1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "KKCategories/Classes/**/*"
+  "source_files": "KKCategories/**/*"
 }

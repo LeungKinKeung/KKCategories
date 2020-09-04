@@ -7,6 +7,7 @@
 //
 
 #import "KKViewController.h"
+#import <NSArray+KK.h>
 
 @interface KKViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableArray <NSNumber *>*list = @[@(1),@(3),@(2),@(4)].mutableCopy;
+    
+    [list quickSort:^BOOL(NSNumber *element1, NSNumber *element2) {
+        return element1.intValue > element2.intValue;
+    }];
+    
+    NSLog(@"%@",list);
 }
 
 - (void)didReceiveMemoryWarning

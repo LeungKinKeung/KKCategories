@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## KKCategories
 
-Copyright (c) 2020 v_ljqliang <v_ljqliang@tencent.com>
+Copyright (c) 2020 leungkinkeung <994700304@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
