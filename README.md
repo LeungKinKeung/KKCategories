@@ -22,7 +22,7 @@ pod 'KKCategories'
 
 ## Author
 
-LeungKinKeung, 994700304@qq.com
+LeungKinKeung, leungkinkeung@qq.com
 
 ## License
 

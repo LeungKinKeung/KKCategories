@@ -89,16 +89,3 @@ OBJC_EXTERN NSString *PathJoin(NSString *directory, ...) NS_REQUIRES_NIL_TERMINA
 
 @end
 
-//typedef NS_ENUM(NSUInteger, KKDirectoryChangeType) {
-//    KKDirectoryChangeTypeAdd,
-//    KKDirectoryChangeTypeClear,
-//    KKDirectoryChangeType,
-//};
-
-@interface KKDirectoryWatcher : NSObject
-
-+ (instancetype)watchFolderWithPath:(NSString *)watchPath handle:(void (^)(void))handle;
-
-- (void)invalidate;
-
-@end

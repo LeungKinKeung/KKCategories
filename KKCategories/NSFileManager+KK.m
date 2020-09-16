@@ -538,13 +538,3 @@ NSString *PathJoin(NSString *directory, ...)
 
 @end
 
-
-@implementation DirectoryWatcher
-{
-    int dirFD;
-    int kq;
-
-    CFFileDescriptorRef dirKQRef;
-}
-
-@end

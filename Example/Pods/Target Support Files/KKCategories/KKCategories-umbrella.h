@@ -12,6 +12,7 @@
 
 #import "KKCategories.h"
 #import "NSArray+KK.h"
+#import "NSData+KK.h"
 #import "NSDate+KK.h"
 #import "NSDictionary+KK.h"
 #import "NSFileManager+KK.h"
